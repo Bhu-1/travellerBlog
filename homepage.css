@@ -127,3 +127,7 @@ footer{
     visibility: visible;
     width: 300px;
 }
+#anch_nav{
+    text-decoration: none;
+    color: brown;
+}

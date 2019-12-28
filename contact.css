@@ -1,0 +1,65 @@
+h1,p{
+    margin: 0px;
+}
+.outer-div{
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 100%;
+}
+.inner-div{
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 9%;
+}
+.header{
+    height: 70px;
+    border: 1px solid;
+}
+section{
+    height: 150px;
+    border: 1px solid;
+    padding-left: 130px;
+    padding-top: 40px;;
+}
+article{
+    height: 150px;
+    margin-top: -150px;
+    margin-left: 518px;
+    
+}
+aside{margin-left: 130px;
+    height: 150px;
+    border: 1px solid;
+   
+}
+.home-icon{
+    width: 90px;
+}
+.contact-us{
+    margin-top: -56px;
+    margin-left: 126px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.input-box{
+    margin-top: 3px;
+    width: 325px;
+    height: 50px;
+    font-size: 21px;
+    font-family: sans-serif;
+    border: 0px;
+    border-bottom: 2px solid #d9d9d9;
+}
+#label-custom{
+    color: #999;
+    font-family: sans-serif;
+}
+.textarea{
+    height: 83px;
+    width: 710px;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: sans-serif;
+    border: 0px;
+    border-bottom: 2px solid #d9d9d9;
+}
