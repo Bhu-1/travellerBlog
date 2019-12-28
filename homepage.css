@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 70px;
+   /* border: 1px solid;*/
+}
+nav{
+    padding-top: 5px;
+    height: 45px;
+   /* border: 1px solid; */
+    background-color: #f3dcbe;
+}
+section{
+    width: 26%;
+    height: 450px;
+}
+aside{
+    width: 74%;
+    height: 450px;
+    margin-top: -452px;
+    margin-left: 26%;
+}
+footer{
+    box-sizing: border-box;
+    margin-top: -10px;
+    padding-top: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    /* margin-top: -30px; */
+    height: 49px;
+}
+.blog{
+    margin-bottom: 0px;
+    margin-top: -45px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: darkcyan;
+    font-style: oblique;
+}
+.image1{
+    width: 65px;
+    margin-left: 1%;
+}
+.home{
+    box-sizing: border-box;
+    /* margin-left: 100px; */
+    padding-bottom: 15px;
+    font-size: 24px;
+    margin: 0px;
+    padding-left: 178px;
+    color: brown;
+    width: 33.33%;
+    /* margin-left: -6px; */
+}
+.gallery{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin-left: 33.33%;
+    margin-top: -42px;
+
+}
+.contact{
+    margin-left: 66.66%;
+    margin-top: -42px;
+}
+.bihar{
+    border-radius: 6px;
+    margin: 10%;
+    /* margin: auto; */
+    color: #209086;
+    font-size: 24px;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+}
+.marky{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.patna1{
+    width: 270px;
+}
+.patna{
+    font-size: 25px;
+    padding-left: 100px;
+    color: saddlebrown;
+}
+.button{
+    margin-left: 92px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 13px;
+    background-color: bisque;
+}
+.con-image{
+    display: inline-block;
+}
+.con-image1{
+    margin-left: 61px;
+    margin-right: 60px;
+}
+.home:hover{
+    background-color: whitesmoke;
+}
+#gayahover{
+    visibility: hidden;
+    position: absolute;
+    width: 400px;
+}
+.bihar:hover #gayahover{
+    visibility: visible;
+    width: 400px;
+
+}
+#gaya1hover{
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+}
+.bihar:hover #gaya1hover{
+    visibility: visible;
+    width: 300px;
+}
