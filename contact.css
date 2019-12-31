@@ -1,23 +1,29 @@
 h1,p{
     margin: 0px;
 }
+body{
+    background-image: url("background_contact.jpg");
+}
 .outer-div{
     box-sizing: border-box;
-    border: 1px solid;
     width: 100%;
 }
 .inner-div{
+    background-color: white;
+    border-radius: 45px;
+    padding-left: 55px;
     box-sizing: border-box;
     border: 1px solid;
-    margin: 9%;
+    /* margin: 3%; */
+    width: 75%;
+    margin: auto;
+    margin-top: 3%;
 }
 .header{
     height: 70px;
-    border: 1px solid;
 }
 section{
     height: 150px;
-    border: 1px solid;
     padding-left: 130px;
     padding-top: 40px;;
 }
@@ -28,9 +34,7 @@ article{
     
 }
 aside{margin-left: 130px;
-    height: 150px;
-    border: 1px solid;
-   
+    height: 150px;   
 }
 .home-icon{
     width: 90px;
@@ -62,4 +66,36 @@ aside{margin-left: 130px;
     font-family: sans-serif;
     border: 0px;
     border-bottom: 2px solid #d9d9d9;
+}
+.container-button{
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 128px;
+}
+.button-submit{
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #ff4b5a;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+.contact-info{
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 129px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+.phone-info{
+    color: #ff4b5a;
 }
